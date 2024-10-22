@@ -16,5 +16,5 @@ demo = gr.Interface(fn=model,
                     description="This app summarizes text using a distilbart-cnn-12-6 model.")
 
 
-demo.launch(share=True)
+demo.launch()
 
